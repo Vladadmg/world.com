@@ -1,0 +1,819 @@
+
+<html>
+<head>
+	<title>Streamline - Store</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+  	  <meta name="keywords" content="Streamline DisHarmony Disharmony
+Dis Harmony
+Dis harmony
+Mike Hogan
+Streamline World
+Streamline Music
+Streamline Band
+streamline
+streamline world
+streamline music
+streamline band">
+        
+		<link rel="shortcut icon" href="images/favicon.ico?1" type="image/vnd.microsoft.icon" />
+	
+
+	<link href="/common/usersite/default.css?6" rel="stylesheet" type="text/css">
+	<link href="styles.css?10" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="/common/js/prototype.js"></script>
+
+
+
+
+	<script type="text/javascript" src="/common/js/zoogle/framed_musicplayer.js"></script>
+
+	
+		
+		
+		
+		<script language="JavaScript" type="text/JavaScript">
+		<!--
+		if (!isMusicPlayerOpen()) openFramedMusicPlayer();
+		//-->
+		</script>
+	<script type="text/javascript" src="/common/js/scriptaculous/scriptaculous.js?load=effects"></script><script type="text/javascript" src="/common/js/lightbox/js/lightbox.js?1"></script><link rel="stylesheet" href="/common/js/lightbox/css/lightbox.css" type="text/css" media="screen" />
+
+	
+		<style type="text/css">
+			.qmmc div#msub1 {width: 62px;} .qmmc>div#msub1 {width: auto; min-width: 62px;} .qmmc div#msub2 {width: 51px;} .qmmc>div#msub2 {width: auto; min-width: 51px;} .qmmc div#msub3 {width: 64px;} .qmmc>div#msub3 {width: auto; min-width: 64px;} .qmmc div#msub4 {width: 58px;} .qmmc>div#msub4 {width: auto; min-width: 58px;} .qmmc div#msub5 {width: 133px;} .qmmc>div#msub5 {width: auto; min-width: 133px;} .qmmc div#msub6 {width: 128px;} .qmmc>div#msub6 {width: auto; min-width: 128px;} .qmmc div#msub7 {width: 86px;} .qmmc>div#msub7 {width: auto; min-width: 86px;} 
+		</style>
+
+
+
+
+
+<style type="text/css">.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;}.qmmc {position:relative;}.qmmc a {float:left;display:block;white-space:nowrap;}.qmmc div a {float:none;}.qmsh div a{float:left;}.qmmc div {visibility:hidden;position:absolute;}</style>
+
+
+<noscript><style type="text/css">.qmmc {width:200px !important;height:200px !important;overflow:scroll;}.qmmc div {position:relative !important;visibility:visible !important;}.qmmc a {float:none !important;white-space:normal !important;}</style></noscript>
+
+
+<script type="text/JavaScript" src="/common/js/quickmenu/qm.js"></script>
+
+
+<style type="text/css">.qmfv{visibility:visible !important;}.qmfh{visibility:hidden !important;}</style>
+<script type="text/JavaScript">var qmad = new Object();qmad.bvis="";qmad.bhide="";qmad.bhover="";</script>
+
+
+<script type="text/javascript" src="/common/js/quickmenu/add-ons/image_based/qm_images.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/common/js/quickmenu/styles/default/style.css" />
+
+
+
+	
+
+		<script type="text/javascript">
+			_ajaxConfig = {'_jsscriptFolder':'/common/js/ajaxCFC/'};
+		</script>
+		<script type='text/javascript' src='/common/js/ajaxCFC/ajax.js'></script>
+		<script type='text/javascript' src='/common/js/zoogle/initialize-ajax.js'></script>
+	
+
+</head>
+<body		onLoad="qm_create(1,false,0,500,false,false,false,false);">
+
+<TABLE WIDTH=760 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD COLSPAN=2><img src="/common/templates/templatesource/23/images/sky.jpg" WIDTH=760 HEIGHT=78 ALT=""></TD>
+</TR>
+<TR>
+<TD><img src="images/45500.jpg?38" width="280" height="169"  alt="Streamline"></TD>
+<TD  valign="top" ><img src="/common/templates/templatesource/23/images/trees.jpg" WIDTH=480 HEIGHT=169 ALT=""></TD>
+</TR>
+<TR>
+<TD><img src="/common/templates/templatesource/23/images/cars.jpg" WIDTH=280 HEIGHT=48 ALT=""></TD>
+<TD>&nbsp;</TD>
+</TR>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<table align="center" width="652" cellpadding="0" cellspacing="0" border="0"><tr><td align="center"><div style="z-index: 50; position:relative;"><div id="qm1" class="qmmc"><a class="qmparent" id="mitem1" href="home.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-home.gif?38" alt="Home" width="62" height="48" style="margin: 0 5px"></a><a class="qmparent" id="mitem2" href="gigs.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-gigs.gif?38" alt="Gigs" width="51" height="48" style="margin: 0 5px"></a><div id="msub2"><a href="giglist.cfm">Gig List</a><a href="ontheroad.cfm">On The Road</a><a href="pics.cfm">Pics</a></div><a class="qmparent" id="mitem3" href="media.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-media.gif?38" alt="Media" width="64" height="48" style="margin: 0 5px"></a><div id="msub3"><a href="bandphotos.cfm">Band Photos</a><a href="discslyrics.cfm">Discs Lyrics</a><a href="sounds.cfm">Sounds</a><a href="videos.cfm">Videos</a></div><a class="qmparent" id="mitem4" href="store.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-store.gif?38" alt="Store" width="58" height="48" style="margin: 0 5px"></a><a class="qmparent" id="mitem5" href="streamteams.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-streamteams.gif?38" alt="Stream Teams" width="133" height="48" style="margin: 0 5px"></a><div id="msub5"><a href="campusreps.cfm">CampusReps</a><a href="chatter.cfm">Chatter</a><a href="mailinglist.cfm">Mailing List</a><a href="news.cfm">News</a><a href="streamteam.cfm">StreamTeam</a></div><a class="qmparent" id="mitem6" href="presskitbios.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-presskitbios.gif?38" alt="Press Kit Bios" width="128" height="48" style="margin: 0 5px"></a><a class="qmparent" id="mitem7" href="contacts.cfm"><img class="qm-is qm-ih qm-ia" src="http://content.bandzoogle.com/users/Streamline/images/button-contacts.gif?38" alt="Contacts" width="86" height="48" style="margin: 0 5px"></a></div><span class="qmclear">&nbsp;</span></div></td></tr></table></div> 	</div></TD>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content">
+<table width="100%" cellspacing="8">
+<tr>
+<td width="100%">
+<div class="layout layout-full">
+
+					<a name="a63323_1" id="a63323_1" style="display:hidden"> </a>
+					
+	
+	<div class="textbox">
+	Welcome to the Streamline store.  All purchases are made via a secure link and Streamline does not have access to any of your financial details whether you use PayPal or a charge card.  <br />
+<br />
+You can pay with PayPal.      PayPal is a free service used by about 100 million consumers world-wide.  PayPal lets you shop without sharing your financial information.  <br />
+<br />
+You can pay with your charge card.        PayPal handles the charge card transaction.  No financial details are shared with Streamline.  <!-- PayPal Logo -->
+<table cellspacing="0" cellpadding="10" border="0" align="center">
+    <tbody>
+        <tr>
+            <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center"><a onclick="javascript:window.open('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/cps/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');" href="#"><img border="0" alt="Solution Graphics" src="https://www.paypal.com/en_US/i/bnr/horizontal_solution_PPeCheck.gif" /></a></td>
+        </tr>
+    </tbody>
+</table>
+<!-- PayPal Logo --> 
+	</div>
+
+
+</div>
+<div class="layout layout-full">
+<img src="http://content.bandzoogle.com/users/Streamline/images/subheader-store-section2.jpg?38" alt="The Streamline Store"><BR> 
+					<a name="a63323_2" id="a63323_2" style="display:hidden"> </a>
+					
+
+<div class="store">
+		
+	
+		<table width="100%" cellspacing="10" cellpadding="0">
+		<tr>
+		<td valign="top">
+
+
+		<table cellpadding="5" cellspacing="0" width="100%" border="0">
+
+		
+
+			<tr>
+			<td width="140" align="center" valign="top" style="border-bottom: 1px dashed #CCCCCC">
+						<form action="/store.cfm?store_action=add-to-cart" method="POST">
+			
+			
+
+				<a href="images/store/28578.jpg" rel="lightbox" title="&lt;p&gt;&lt;font size=&quot;3&quot;&gt;Long Awaited, Self Titled, 7-track EP.&lt;br /&gt;
+&lt;/font&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;All I Need&lt;/li&gt;
+    &lt;li&gt;Higher&lt;/li&gt;
+    &lt;li&gt;Flicker&lt;/li&gt;
+    &lt;li&gt;The Meaning of Life&lt;/li&gt;
+    &lt;li&gt;Solace&lt;/li&gt;
+    &lt;li&gt;The Untitled&lt;/li&gt;
+    &lt;li&gt;The Only Thing That Matters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;font size=&quot;3&quot;&gt; &lt;/font&gt;&lt;font size=&quot;2&quot;&gt;Shipping $2, outside US $2 surcharge&lt;br /&gt;
+&lt;/font&gt;&lt;/p&gt; "><img src="images/store/28578-thumb.jpg" border="1" title=" " alt=" "></a><br>
+			
+			<br>
+
+			<input type="hidden" name="id" value="28578">
+			
+				<input type="submit" name="add" value="Add to cart" alt="Add to cart">
+			
+			</td>
+
+			<td valign="top" style="border-bottom: 1px dashed #CCCCCC">
+					<div class="storetitle" style="font-size:1.2em">
+					Streamline CD
+					</div>
+					<div class="storenotes">
+					$10.00 USD
+					</div>
+
+			
+				<div style="font-size:0.9em; margin:10px"><p><font size="3">Long Awaited, Self Titled, 7-track EP.<br />
+</font></p>
+<ul>
+    <li>All I Need</li>
+    <li>Higher</li>
+    <li>Flicker</li>
+    <li>The Meaning of Life</li>
+    <li>Solace</li>
+    <li>The Untitled</li>
+    <li>The Only Thing That Matters</li>
+</ul>
+<p><font size="3"> </font><font size="2">Shipping $2, outside US $2 surcharge<br />
+</font></p></div>
+			
+
+
+			<br>
+
+
+			</form>
+			</td>
+
+
+			</tr>
+
+
+
+
+
+		
+
+			<tr>
+			<td width="140" align="center" valign="top" style="border-bottom: 1px dashed #CCCCCC">
+						<form action="/store.cfm?store_action=add-to-cart" method="POST">
+			
+			
+			<br>
+
+			<input type="hidden" name="id" value="36262">
+			
+				<input type="submit" name="add" value="Add to cart" alt="Add to cart">
+			
+			</td>
+
+			<td valign="top" style="border-bottom: 1px dashed #CCCCCC">
+					<div class="storetitle" style="font-size:1.2em">
+					Complete EP Download
+					</div>
+					<div class="storenotes">
+					$5.99 USD
+					</div>
+
+			
+				<div style="font-size:0.9em; margin:10px">Download of all 7 tracks from Self Titled EP.&nbsp; You will receive download instructions within 24 hours.<br />
+(To download individual tracks, scroll to bottom of page.)<br />
+<br />
+* All I Need<br />
+* Higher<br />
+* Flicker<br />
+* The Meaning of Life<br />
+* Solace<br />
+* The Untitled<br />
+* The Only Thing That Matters<br />
+<br />
+Shipping FREE</div>
+			
+
+
+			<br>
+
+
+			</form>
+			</td>
+
+
+			</tr>
+
+
+
+
+
+		
+
+			<tr>
+			<td width="140" align="center" valign="top" style="border-bottom: 1px dashed #CCCCCC">
+						<form action="/store.cfm?store_action=add-to-cart" method="POST">
+			
+			
+
+				<a href="images/store/28914.jpg" rel="lightbox" title="Gildan Heavy Blend, 50% Cotton/50% Polyester&lt;br /&gt;
+Shipping: $4, outside US $4 surcharge&lt;br /&gt;
+&lt;br /&gt;
+&lt;img width=&quot;320&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; height=&quot;240&quot; border=&quot;0&quot; src=&quot;./images/content/100_0093.JPG&quot; alt=&quot;&quot; /&gt; "><img src="images/store/28914-thumb.jpg" border="1" title=" " alt=" "></a><br>
+			
+			<br>
+
+			<input type="hidden" name="id" value="28914">
+			
+				<input type="submit" name="add" value="Add to cart" alt="Add to cart">
+			
+			</td>
+
+			<td valign="top" style="border-bottom: 1px dashed #CCCCCC">
+					<div class="storetitle" style="font-size:1.2em">
+					Black Zippered Hoodie
+					</div>
+					<div class="storenotes">
+					$20.00 USD
+					</div>
+
+			
+				<div style="font-size:0.9em; margin:10px">Gildan Heavy Blend, 50% Cotton/50% Polyester<br />
+Shipping: $4, outside US $4 surcharge<br />
+<br />
+<img width="320" vspace="0" hspace="0" height="240" border="0" src="./images/content/100_0093.JPG" alt="" /></div>
+			
+
+				<table cellspacing="0" cellpadding="3">
+					
+						<tr>
+						<td align="right" nowrap>Size:</td>
+						<td width="100%">
+						<input type="hidden" name="option_1_name_28914" value="Size">
+						<select name="option1">
+						
+							<option value="Medium">Medium</option>
+						
+							<option value="Large">Large</option>
+						
+						</select>
+						</td>
+						</tr>
+					
+				</table>
+			
+
+
+			<br>
+
+
+			</form>
+			</td>
+
+
+			</tr>
+
+
+
+
+
+		
+
+			<tr>
+			<td width="140" align="center" valign="top" style="border-bottom: 1px dashed #CCCCCC">
+						<form action="/store.cfm?store_action=add-to-cart" method="POST">
+			
+			
+
+				<a href="images/store/28915.jpg" rel="lightbox" title="American Apparel Sweatshop Free T-shirts, 100% Cotton&lt;br /&gt;
+Shipping $2, outside US $2 surcharge&lt;br /&gt;
+&lt;br /&gt;
+&lt;img width=&quot;320&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; height=&quot;240&quot; border=&quot;0&quot; src=&quot;./images/content/100_0093.JPG&quot; alt=&quot;&quot; /&gt; "><img src="images/store/28915-thumb.jpg" border="1" title=" " alt=" "></a><br>
+			
+			<br>
+
+			<input type="hidden" name="id" value="28915">
+			
+				<input type="submit" name="add" value="Add to cart" alt="Add to cart">
+			
+			</td>
+
+			<td valign="top" style="border-bottom: 1px dashed #CCCCCC">
+					<div class="storetitle" style="font-size:1.2em">
+					Navy Streamline TShirt
+					</div>
+					<div class="storenotes">
+					$10.00 USD
+					</div>
+
+			
+				<div style="font-size:0.9em; margin:10px">American Apparel Sweatshop Free T-shirts, 100% Cotton<br />
+Shipping $2, outside US $2 surcharge<br />
+<br />
+<img width="320" vspace="0" hspace="0" height="240" border="0" src="./images/content/100_0093.JPG" alt="" /></div>
+			
+
+				<table cellspacing="0" cellpadding="3">
+					
+						<tr>
+						<td align="right" nowrap>Size:</td>
+						<td width="100%">
+						<input type="hidden" name="option_1_name_28915" value="Size">
+						<select name="option1">
+						
+							<option value="XSmall">XSmall</option>
+						
+							<option value="Small">Small</option>
+						
+							<option value="Medium">Medium</option>
+						
+						</select>
+						</td>
+						</tr>
+					
+				</table>
+			
+
+
+			<br>
+
+
+			</form>
+			</td>
+
+
+			</tr>
+
+
+
+
+
+		
+
+			<tr>
+			<td width="140" align="center" valign="top" style="border-bottom: 1px dashed #CCCCCC">
+						<form action="/store.cfm?store_action=add-to-cart" method="POST">
+			
+			
+
+				<a href="images/store/28916.jpg" rel="lightbox" title="American Apparel Sweatshop Free T-shirts, 100% Cotton&lt;br /&gt;
+Shipping $2, outside US $2 surcharge&lt;br /&gt;
+&lt;br /&gt;
+&lt;img width=&quot;320&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; height=&quot;240&quot; border=&quot;0&quot; alt=&quot;&quot; src=&quot;./images/content/Drive_Closeup.JPG&quot; /&gt; "><img src="images/store/28916-thumb.jpg" border="1" title=" " alt=" "></a><br>
+			
+			<br>
+
+			<input type="hidden" name="id" value="28916">
+			
+				<input type="submit" name="add" value="Add to cart" alt="Add to cart">
+			
+			</td>
+
+			<td valign="top" style="border-bottom: 1px dashed #CCCCCC">
+					<div class="storetitle" style="font-size:1.2em">
+					Black Drive Thru TShirt
+					</div>
+					<div class="storenotes">
+					$10.00 USD
+					</div>
+
+			
+				<div style="font-size:0.9em; margin:10px">American Apparel Sweatshop Free T-shirts, 100% Cotton<br />
+Shipping $2, outside US $2 surcharge<br />
+<br />
+<img width="320" vspace="0" hspace="0" height="240" border="0" alt="" src="./images/content/Drive_Closeup.JPG" /></div>
+			
+
+				<table cellspacing="0" cellpadding="3">
+					
+						<tr>
+						<td align="right" nowrap>Size:</td>
+						<td width="100%">
+						<input type="hidden" name="option_1_name_28916" value="Size">
+						<select name="option1">
+						
+							<option value="XSmall">XSmall</option>
+						
+							<option value="Small">Small</option>
+						
+						</select>
+						</td>
+						</tr>
+					
+				</table>
+			
+
+
+			<br>
+
+
+			</form>
+			</td>
+
+
+			</tr>
+
+
+
+
+
+		
+
+
+		</table>
+
+
+		</td>
+		<td width="200" valign="top">
+		
+
+
+
+
+	<table cellpadding="5" cellspacing="0" style="border:solid 1px #333333;" width="100%">
+	<tr>
+	<td colspan="4" style="background-color:#333333; color:white; font-size:12px; font-weight:bold;">Your cart</td>
+	</tr>
+	
+		<tr><td colspan="4" align="center">(empty)</td></tr>
+	
+
+
+</table>
+
+
+
+
+		</td>
+		</tr>
+		</table>
+		
+</div>
+
+</div>
+<div class="layout layout-full">
+<img src="http://content.bandzoogle.com/users/Streamline/images/subheader-store-section3.jpg?38" alt="Self-Titled EP Tracks"><BR> 
+					<a name="a63323_3" id="a63323_3" style="display:hidden"> </a>
+					
+	
+	<div class="textbox">
+	To purchase all 7 songs from the EP for only $5.99, order item &quot;Complete EP Download&quot; from above.<br /> 
+	</div>
+
+
+</div>
+<div class="layout layout-full">
+
+					<a name="a63323_4" id="a63323_4" style="display:hidden"> </a>
+					
+	<div id="user_message" class="user_message">
+		<b>Thank you for your purchase!</b>
+		<p>You will receive an email with instructions to download your music as soon as your payment clears.</p>
+	</div>
+
+
+
+<script type="text/javascript" src="/common/js/swfobject/swfobject.js"></script>
+
+
+	<form name="cartForm" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input type="hidden" name="business" value="merchandise@streamlineworld.com">
+	<input type="hidden" name="custom" value="Streamline">
+	<input type="hidden" name="currency_code" value="USD">
+
+	<input type="hidden" name="notify_url" value="http://bandzoogle.com/common/apps/ppd-purchase.cfm">
+
+	<input type="hidden" name="return" value="http://streamlineworld.com/store.cfm?music_purchasereturn=1">
+	<input type="hidden" name="cancel_return" value="http://streamlineworld.com/store.cfm">
+	<input type="hidden" name="cmd" value="_cart">
+	<input type="hidden" name="upload" value="1">
+	<input type="hidden" name="shipping" value="0">
+	<input type="hidden" name="handling" value="0">
+	<input type="hidden" name="no_note" value="1">
+	<input type="hidden" name="no_shipping" value="1">
+
+		<strong>All I Need</strong> -
+
+		
+				<span id="preview_239556"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DAll%2DI%2DNeed%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239556", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239556");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239556" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>Higher</strong> -
+
+		
+				<span id="preview_239557"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DHigher%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239557", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239557");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239557" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>Flicker</strong> -
+
+		
+				<span id="preview_239558"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DFlicker%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239558", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239558");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239558" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>The Meaning of Life</strong> -
+
+		
+				<span id="preview_239559"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DThe%2DMeaning%2DOf%2DLife%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239559", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239559");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239559" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>Solace</strong> -
+
+		
+				<span id="preview_239560"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DSolace%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239560", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239560");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239560" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>The Untitled</strong> -
+
+		
+				<span id="preview_239561"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DThe%2DUntitled%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239561", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239561");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239561" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<strong>The Only Thing That Matters</strong> -
+
+		
+				<span id="preview_239562"></span>
+				<script language="JavaScript" type="text/JavaScript">
+				<!--
+					var so = new SWFObject("/common/musicplayer/preview_f6.swf?song_url=%2Fmedia%2Fstore%2Fpreview%2FStreamlineworlddotcom%2DThe%2DOnly%2DThing%2DThat%2DMatters%2Emp3&b_bgcolor=000000&b_fgcolor=ffffff", "preview_239562", "17", "17", "6", "#ffffff");
+					so.addParam("quality", "high");
+					so.addParam("wmode", "transparent");
+					so.addParam("align", "absmiddle");
+					so.write("preview_239562");
+				-->
+				</script>
+				-
+				<strong>$0.99 USD</strong>
+
+				
+					<input type="checkbox" class="chk" name="addtocart_239562" value="1" />
+				
+
+
+		<BR>
+
+		
+
+		<BR>
+	
+		<input type="hidden" name="item_number_1" value=""><input type="hidden" name="item_name_1" value=""><input type="hidden" name="amount_1" value="">
+	
+		<input type="hidden" name="item_number_2" value=""><input type="hidden" name="item_name_2" value=""><input type="hidden" name="amount_2" value="">
+	
+		<input type="hidden" name="item_number_3" value=""><input type="hidden" name="item_name_3" value=""><input type="hidden" name="amount_3" value="">
+	
+		<input type="hidden" name="item_number_4" value=""><input type="hidden" name="item_name_4" value=""><input type="hidden" name="amount_4" value="">
+	
+		<input type="hidden" name="item_number_5" value=""><input type="hidden" name="item_name_5" value=""><input type="hidden" name="amount_5" value="">
+	
+		<input type="hidden" name="item_number_6" value=""><input type="hidden" name="item_name_6" value=""><input type="hidden" name="amount_6" value="">
+	
+		<input type="hidden" name="item_number_7" value=""><input type="hidden" name="item_name_7" value=""><input type="hidden" name="amount_7" value="">
+	
+
+	<input type="image" src="/common/shoppingcart/button-buynow.gif" border="0" align="absmiddle" name="submit" alt="Checkout" onClick="if (!updateCart(cartForm)) { alert('Use the ADD TO CART buttons above to select the tracks you wish to purchase.'); return false;} else return true;">
+	</form>
+
+	<script type="text/javascript">
+		var so_blankimage = "/common/shoppingcart/blank.gif";
+		var so_offimage = "/common/shoppingcart/button-addtocart.gif";
+		var so_onimage = "/common/shoppingcart/button-incart.gif";
+
+		var item_info = {
+			
+			'239556': {item_number: '239556', item_name: 'All I Need', amount: '0.99'}, 
+			'239557': {item_number: '239557', item_name: 'Higher', amount: '0.99'}, 
+			'239558': {item_number: '239558', item_name: 'Flicker', amount: '0.99'}, 
+			'239559': {item_number: '239559', item_name: 'The Meaning of Life', amount: '0.99'}, 
+			'239560': {item_number: '239560', item_name: 'Solace', amount: '0.99'}, 
+			'239561': {item_number: '239561', item_name: 'The Untitled', amount: '0.99'}, 
+			'239562': {item_number: '239562', item_name: 'The Only Thing That Matters', amount: '0.99'} 
+		};
+		var num_items = 7;
+
+		function updateCart(cartForm) {
+			// Clear out what's there
+			for (var i = 1; i <= num_items; i++) {
+				cartForm['item_number_' + i].value = '';
+				cartForm['item_name_' + i].value = '';
+				cartForm['amount_' + i].value = '';
+			}
+			// Enter in the values for only the elements that are selected.
+			var last_item = 0;
+			for (var item in item_info) {
+				if (cartForm['addtocart_' + item].checked) {
+					last_item = last_item + 1;
+					cartForm['item_number_' + last_item].value = item_info[item]['item_number'];
+					cartForm['item_name_' + last_item].value = item_info[item]['item_name'];
+					cartForm['amount_' + last_item].value = item_info[item]['amount'];
+				}
+			}
+			return (last_item > 0);
+		}
+
+	</script>
+
+	<script type="text/javascript" src="/common/shoppingcart/custom_checkbox.js"></script>
+
+	<script type="text/javascript">
+		// Use the Prototype load event instead of what was in custom_checkbox.js so it does not conflict with other components.
+		Event.observe(window, 'load', so_init);
+	</script>
+
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+</div>
+<div class="footertext"></div><div class="branding-right"></div>
+</td>
+</tr>
+</table>
+ <script type="text/javascript">initLightbox();</script></body></html> 

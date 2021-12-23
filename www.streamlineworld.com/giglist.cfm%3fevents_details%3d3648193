@@ -1,0 +1,712 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+			<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+						
+						<link href="http://assets.sitezoogle.com/templates/templatesource/23/css/template.css?1267646721"
+							 rel="stylesheet" type="text/css">
+					        
+
+				<link href="styles.css?11-1267646721" rel="stylesheet" type="text/css" />
+				<!--[if IE]><link href="styles-ie.css?11-1267646721" rel="stylesheet" type="text/css" /><![endif]-->
+				
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/jquery/js/jquery-1.3.2.min.js?1267646721"></script>
+				<script type="text/javascript"> jQuery.noConflict(); </script>
+				
+				
+				<!--[if IE 6]>
+				<script type="text/javascript" src="/common/js/jquery/plugins/pngFix/jquery.pngFix.js"></script>
+				<style type="text/css">.navMenuHorizontal li.top { margin: 0 5px; }</style>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						// apply a wrapper to the link to make them work again after the PNG fix
+						// see: http://www.satzansatz.de/cssd/tmp/alphatransparency.html
+						$('.navMenu a.top').each(function() {
+							var $li = $(this).parent('li');
+							var bgIMG = $li.css('background-image');
+							if(bgIMG != null && bgIMG.indexOf(".png")!=-1){
+								$this = $(this);
+								// move the bg image & appropriate styles to the wrapper
+								$this.css({position: 'relative', zIndex: 1});
+								var styles = {'background-image': $li.css('background-image'), float: 'left' };
+								$(['padding-left','padding-right','padding-top','padding-bottom','width','height','background-repeat','background-position-x','background-position-y']).each(function() {
+									var t = $li.css( '' + this + '' );
+									if( t != null ) styles[this] = t;
+								})
+								$this.wrap($('<div></div>').css(styles));
+								$li.css('background-image', 'none');
+							}
+						});
+						// give subtitles 'hasLayout' so that the filter works appropriately
+						$('.subtitlewrap').css({zoom: '1'});
+						// finally fix the pngs
+						$('.navMenu li.top').pngFix();
+						// if we call it on all of them in one go then it only works for the first
+						// one and all the rest get missing background so we do them 1 by 1
+						$('.subtitlewrap').each(function() { $(this).pngFix(); } );
+					});
+				</script>
+				<![endif]-->
+		
+		
+				
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/jquery/plugins/bgiframe/jquery.bgiframe.js?1267646721"></script>
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/zoogle/jQuery.zoogleNav.js?1267646721"></script>
+	
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$('.navMenu').zoogleNav({imageSuffix: 'png'});
+	
+						// replace all the flash elements with ones with wmode params so that the
+						// menu doesn't overlay on other Windows browsers (as IE uses bgiframe)
+						// could extract this to be re-usable
+						if( !$.browser.msie && window.navigator.userAgent.match( /Windows/ ) ) {
+							$('object').each(function() {
+								$this = $(this);
+								if( ! $('param[name=wmode]', $this ).length == 1 ) {
+									$targ = $this.clone();
+									$targ.append('<param name="wmode" value="opaque" />');
+									$('embed', $targ).attr('wmode', 'opaque');
+									$this.replaceWith($targ);
+								}
+							} );
+	
+							$('embed').each(function() {
+								$this = $(this);
+								if( $this.attr('wmode') == null ) {
+									$this.replaceWith($this.clone().attr('wmode', 'opaque'));
+								}
+							});
+						}
+					});
+				</script>
+			
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/zoogle/framed_musicplayer.js?1267646721"></script>
+				<script language="JavaScript" type="text/JavaScript">
+					function stopPlayer() {
+						jQuery("[zplayer]").stop();
+						jQuery("[zplayer]").trigger("stop");
+                        if ( typeof(toggleOffButtons) == "function" ) {
+						   toggleOffButtons();
+                        }
+
+					}
+
+					
+						
+						if(isMusicPlayerOpen()) {
+							closeFramedMusicPlayer();
+						}
+					
+				</script>
+			<title>Streamline - giglist</title>
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+			
+					<meta name="keywords" content="Streamline, DisHarmony, Disharmony,
+Dis Harmony, Dis harmony, Mike Hogan, Streamline World, Streamline Music, Streamline Band, streamline, streamline world, streamline music, streamline band, Something Corporate, SoCo" />
+				
+					<link rel="shortcut icon"
+						href="http://content.bandzoogle.com/users/Streamline/images/favicon.ico?9"
+						type="image/vnd.microsoft.icon" />
+				
+				<script type="text/javascript" src="/common/js/zoogle/jquery.ga.js"></script>
+				<script type="text/javascript">
+					jQuery.ga("UA-13013790-1");
+				</script>
+				
+
+			<link href="http://assets.sitezoogle.com/common/js/facebox/facebox.css?1267646721" rel="stylesheet" type="text/css">
+			<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/facebox/facebox.js?1267646721"></script>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$.fn.facebox({
+						opacity      : 0.1,
+						loadingImage : 'http://assets.sitezoogle.com/common/js/facebox/loading.gif?1267646721',
+						closeImage   : 'http://assets.sitezoogle.com/common/js/facebox/closelabel.gif?1267646721'
+					});
+				});
+				// Apply behaviors to any new content loaded in the facebox div.
+				jQuery(document).bind('afterReveal.facebox', function() {
+					jQuery('#facebox a[rel*=facebox]').each(function() {
+						jQuery(this).facebox();
+					});
+					jQuery('#facebox input[class*=facebox]').each(function() {
+						jQuery(this).facebox();
+					});
+				});
+			</script>
+		<link href="http://assets.sitezoogle.com/common/usersite/css/features.css?1267646721" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('a[rel*=facebox_event]').each(function() {
+					var el = $(this);
+					el.attr('href', el.attr('href').replace(/.*events_details=([0-9]+).*/, '#event-details-$1' ) );
+					el.facebox();
+				});
+			});
+		</script>
+	
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('a[rel*=facebox_event]').each(function() {
+					var el = $(this);
+					el.attr('href', el.attr('href').replace(/.*events_details=([0-9]+).*/, '#event-details-$1' ) );
+					el.facebox();
+				});
+			});
+		</script>
+	
+			</head>
+			<body class="base">
+				<div class="container" id="container">
+					
+					<div class="header clear">
+						
+						<div class="header-graphic"><img src="http://content.bandzoogle.com/users/Streamline/images/174688.jpg?8" alt="Streamline" /></div> <div class="navigation clear"><ul class="navMenu navMenuHorizontal"><li class="top"><a href="home.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-home.png?26" alt="Home"  width="55" height="50" class="rollover" /></a></li><li class="top"><a href="gigs.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-gigs.png?26" alt="Gigs"  width="40" height="50" class="rollover" /></a><ul><li><a href="giglist.cfm">Gig List</a></li><li><a href="ontheroad.cfm">On The Road</a></li><li><a href="pics.cfm">Pics</a></li></ul></li><li class="top"><a href="media.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-media.png?26" alt="Media"  width="55" height="50" class="rollover" /></a><ul><li><a href="bandphotos.cfm">Band Photos</a></li><li><a href="discslyrics.cfm">Discs &amp; Lyrics</a></li><li><a href="sounds.cfm">Sounds</a></li><li><a href="videos.cfm">Videos</a></li></ul></li><li class="top"><a href="store.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-store.png?26" alt="Store"  width="49" height="50" class="rollover" /></a></li><li class="top"><a href="streamteams.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-streamteams.png?26" alt="Stream Teams"  width="122" height="50" class="rollover" /></a><ul><li><a href="campusreps.cfm">CampusReps</a></li><li><a href="chatter.cfm">Chatter</a></li><li><a href="mailinglist.cfm">Mailing List</a></li><li><a href="newsarchive.cfm">News Archive</a></li><li><a href="streamteam.cfm">StreamTeam</a></li></ul></li><li class="top"><a href="presskitbios.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-presskitbios.png?26" alt="Press Kit Bios"  width="113" height="50" class="rollover" /></a></li><li class="top"><a href="contacts.cfm" class="top"><img src="http://content.bandzoogle.com/users/Streamline/images/button-contacts.png?26" alt="Contacts"  width="75" height="50" class="rollover" /></a></li></ul></div>
+					</div>
+					
+					
+					
+					
+					<div class="content-top"></div>
+					<div class="clear">
+						
+						<div class="content"> 
+			<table width="100%" cellspacing="8">
+				
+
+					<tr>
+						
+							<td colspan="2" valign="top">
+								<div class="layout layout-full">
+									
+											<a name="a61885_5548" 
+												id="a61885_5548" style="display:hidden"> </a>
+											
+<div class="events-feature">
+	<div id="events-feature-display-5548">
+		
+		<table class="events-calendar" cellspacing="0" summary="Calendar for March, 2010">
+			<tr class="featheader">
+				<td colspan="2" class="previous">
+					
+						<a href="giglist.cfm?calyear=2010&calmonth=2&caltype=full"
+						title="previous month" class="nav">&lt;&lt; Previous</a>
+					
+				</td>
+				<td colspan="3" class="month-year">
+					March, 2010
+				</td>
+				<td colspan="2" class="next">
+					
+						<a href="giglist.cfm?calyear=2010&calmonth=4&caltype=full" 
+						title="next month" class="nav">Next &gt;&gt;</a>
+					
+				</td>
+			</tr>
+			<tr class="subheader">
+				<th scope="col" abbr="Sunday" title="Sunday">S</th>
+				<th scope="col" abbr="Monday" title="Monday">M</th>
+				<th scope="col" abbr="Tuesday" title="Tuesday">T</th>
+				<th scope="col" abbr="Wednesday" title="Wednesday">W</th>
+				<th scope="col" abbr="Thursday" title="Thursday">T</th>
+				<th scope="col" abbr="Friday" title="Friday">F</th>
+				<th scope="col" abbr="Saturday" title="Saturday">S</th>
+			</tr>
+		
+			<tr>
+					<td class="day empty">
+						
+							&nbsp;
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">1</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">2</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">3</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">4</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">5</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">6</li>
+								
+								
+											<li class="event event-a">
+												<a href="giglist.cfm?events_details=4196577&back=%2Fgiglist%2Ecfm&bq=EVENTS%5FDETAILS%3D3648193%26" title="Northgate Tavern, Baton Rouge, LA" rel="facebox_event">
+													Northgate Tavern, Baton Rouge, LA
+												</a>
+											</li>
+									
+							</ul>
+						
+					</td>
+				</tr> <tr>
+					<td class="day  past">
+						
+							<ul>
+								<li class="date">7</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day  highlighted">
+						
+							<ul>
+								<li class="date">8</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">9</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">10</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">11</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">12</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">13</li>
+								
+								
+							</ul>
+						
+					</td>
+				</tr> <tr>
+					<td class="day ">
+						
+							<ul>
+								<li class="date">14</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">15</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">16</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">17</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">18</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">19</li>
+								
+								
+											<li class="event event-b">
+												<a href="giglist.cfm?events_details=5070091&back=%2Fgiglist%2Ecfm&bq=EVENTS%5FDETAILS%3D3648193%26" title="Treasure Island, Austin, TX" rel="facebox_event">
+													Treasure Island, Austin, TX
+												</a>
+											</li>
+									
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">20</li>
+								
+								
+											<li class="event event-c">
+												<a href="giglist.cfm?events_details=3648193&back=%2Fgiglist%2Ecfm&bq=EVENTS%5FDETAILS%3D3648193%26" title="Agave, Austin, TX" rel="facebox_event">
+													Agave, Austin, TX
+												</a>
+											</li>
+									
+							</ul>
+						
+					</td>
+				</tr> <tr>
+					<td class="day ">
+						
+							<ul>
+								<li class="date">21</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">22</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">23</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">24</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">25</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">26</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">27</li>
+								
+								
+							</ul>
+						
+					</td>
+				</tr> <tr>
+					<td class="day ">
+						
+							<ul>
+								<li class="date">28</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">29</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">30</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day ">
+						
+							<ul>
+								<li class="date">31</li>
+								
+								
+							</ul>
+						
+					</td>
+				
+					<td class="day empty">
+						
+							&nbsp;
+						
+					</td>
+				
+					<td class="day empty">
+						
+							&nbsp;
+						
+					</td>
+				
+					<td class="day empty">
+						
+							&nbsp;
+						
+					</td>
+				</tr> 
+		</table>
+	
+	<div class="event-details" id="event-details-4196577" style="display: none;">
+		<h3>Event Details</h3>
+		<ul>
+			<li><strong>Sat, March 6</strong></li>
+			
+				<li>Northgate Tavern, Baton Rouge, LA</li>
+			
+			<li>
+				136 W Chimes St, Baton Rouge, LA 
+					(<a href="http://maps.google.com/maps?q=136%20W%20Chimes%20St,+Baton%20Rouge,+LA,+" target="map"><span>MAP</span></a>)
+				
+			</li>
+			
+				<li><a target="_new" href="http://www.myspace.com/northgatetavern">Northgate Tavern</a>, 10pm, LSU Geology Club Fundraiser - All are welcome!<br type="_moz" /></li>
+			
+		</ul>
+	</div>
+
+	<div class="event-details" id="event-details-5070091" style="display: none;">
+		<h3>Event Details</h3>
+		<ul>
+			<li><strong>Fri, March 19</strong></li>
+			
+				<li>Treasure Island, Austin, TX</li>
+			
+			<li>
+				413 East 6th Street, Austin, TX 
+					(<a href="http://maps.google.com/maps?q=413%20East%206th%20Street,+Austin,+TX,+" target="map"><span>MAP</span></a>)
+				
+			</li>
+			
+				<li>Streamline at <a target="_new" href="http://www.spillonsixth.com/treasure/enter/">Treasure Island</a>, 5pm...that's 5pm!&nbsp; *SXSW*<br />
+Part of <a href="http://musicgorilla.com/" target="_new">MusicGorilla.com</a> Showcase Series<br type="_moz" /></li>
+			
+				<li><script type="text/javascript">
+	               var addthis_pub="bandzoogle"; tmpEvent = "Treasure Island, Austin, TX";
+                  </script>
+				<a href="http://www.addthis.com/bookmark.php?v=20"
+					onclick='return addthis_open(this, "", "http://streamlineworld.com/giglist.cfm?events_details=5070091", tmpEvent)'><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" 
+					width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+				</li>
+		  
+		</ul>
+	</div>
+
+	<div class="event-details" id="event-details-3648193" style="display: none;">
+		<h3>Event Details</h3>
+		<ul>
+			<li><strong>Sat, March 20</strong></li>
+			
+				<li>Agave, Austin, TX</li>
+			
+			<li>
+				415 East 6th Street, Austin, TX 
+					(<a href="http://maps.google.com/maps?q=415%20East%206th%20Street,+Austin,+TX,+" target="map"><span>MAP</span></a>)
+				
+			</li>
+			
+				<li>Join us at SXSW at Agave, 10pm<br type="_moz" /></li>
+			
+				<li><script type="text/javascript">
+	               var addthis_pub="bandzoogle"; tmpEvent = "Agave, Austin, TX";
+                  </script>
+				<a href="http://www.addthis.com/bookmark.php?v=20"
+					onclick='return addthis_open(this, "", "http://streamlineworld.com/giglist.cfm?events_details=3648193", tmpEvent)'><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" 
+					width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+				</li>
+		  
+		</ul>
+	</div>
+
+	</div>
+</div>
+
+
+	<div class="event-details" id="event-details-3648193" style="display: none;">
+		<h3>Event Details</h3>
+		<ul>
+			<li><strong>Sat, March 20</strong></li>
+			
+				<li>Agave, Austin, TX</li>
+			
+			<li>
+				415 East 6th Street, Austin, TX 
+			</li>
+			
+				<li>Join us at SXSW at Agave, 10pm<br type="_moz" /></li>
+			
+				<li><script type="text/javascript">
+	               var addthis_pub="bandzoogle"; tmpEvent = "Agave, Austin, TX";
+                  </script>
+				<a href="http://www.addthis.com/bookmark.php?v=20"
+					onclick='return addthis_open(this, "", "http://streamlineworld.com/giglist.cfm?events_details=3648193", tmpEvent)'><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" 
+					width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+				</li>
+		  
+		</ul>
+	</div>
+
+								</div>
+							</td>
+						
+					</tr>
+				
+			</table>
+			</div>
+					</div>
+					
+					<div class="content-bottom"></div>
+					
+					
+
+					<div class="footer clear"></div>
+					
+				</div>
+				
+				
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/jquery/plugins/jquery.timer.js?1267646721"></script>
+				<script type="text/javascript" src="http://assets.sitezoogle.com/common/js/jquery/ajaxCFC/js/jquery.AjaxCFC.js?1267646721"></script>
+				
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$('a[rel*=facebox]').each(function() {
+							var el = $(this);
+							el.facebox();
+						});
+					});
+				</script>
+			 
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						if ( $("#event-details-3648193").length ) {
+							$.facebox({div: "#event-details-3648193"});
+						}
+					});
+				</script>
+			 <div class="footertext"></div>
+			</body>
+		</html>
+	

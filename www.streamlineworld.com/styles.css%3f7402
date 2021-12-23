@@ -1,0 +1,156 @@
+
+body
+{
+margin: 0px;
+background-image: url(/common/templates/templatesource/23/images/background.jpg?9543);
+background-repeat: repeat-x;
+background-color:#000000;
+font-family: trebuchet ms, trebuchet, tahoma;
+font-size: small;
+
+
+
+
+
+
+color: #ffffff;
+}
+
+.branding a {
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+td
+{
+font-family: trebuchet ms, trebuchet, tahoma;
+font-size: small;
+
+
+
+
+
+
+color: #ffffff;
+}
+
+a:link, a:visited
+{
+color:  #3366FF;
+}
+
+h1
+{
+font-size: medium;
+font-weight: bolder;
+color:  #ffffff;
+}
+
+h2
+{
+font-size: small;
+font-weight: bolder;
+color:  #ffffff;
+}
+
+
+
+/* CLASSES FOR EACH PAGE FEATURE */
+
+.blog
+{
+}
+
+.counter
+{
+}
+
+.eteam
+{
+}
+
+.events
+{
+}
+
+.eventstitle
+{
+font-weight: bold;
+}
+
+.eventsnotes
+{
+}
+
+.forum
+{
+}
+
+.guestbook
+{
+}
+
+.mailinglist
+{
+}
+
+.mailform
+{
+}
+
+.news
+{
+}
+
+.newstitle
+{
+font-weight: bold;
+}
+
+.newsnotes
+{
+}
+
+.photos
+{
+border: 1px solid #3366FF;
+}
+
+.photoscaption
+{
+font-size: x-small;
+}
+
+.photostitle
+{
+font-weight: bold;
+font-size: medium;
+}
+
+.poll
+{
+}
+
+.polltitle
+{
+font-weight: bold;
+}
+
+.store
+{
+}
+
+.storetitle
+{
+font-weight: bold;
+}
+
+.storenotes
+{
+
+}
+
+.textbox
+{
+padding:5px;
+}

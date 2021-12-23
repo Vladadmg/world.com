@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	
+	
+	<title>Streamline - Mailing List</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+			<meta name="keywords" content="Streamline, DisHarmony, Disharmony,
+Dis Harmony, Dis harmony, Mike Hogan, Streamline World, Streamline Music, Streamline Band, streamline, streamline world, streamline music, streamline band, Something Corporate, SoCo">
+		
+	
+			<link rel="shortcut icon" href="http://content.bandzoogle.com/users/Streamline/images/favicon.ico?1" type="image/vnd.microsoft.icon" />
+		
+
+	<link href="/common/usersite/css/reset.css?11" rel="stylesheet" type="text/css">
+	<link href="/common/usersite/css/typography.css?11" rel="stylesheet" type="text/css">
+	<link href="/common/usersite/css/default.css?11" rel="stylesheet" type="text/css">
+	
+		<link href="/common/templates/templatesource/23/css/template.css" rel="stylesheet" type="text/css">
+	
+		<link href="styles.css?11" rel="stylesheet" type="text/css">
+	
+
+   <script type="text/javascript" src="/common/js/google.js"></script>
+	<script type="text/javascript">
+	google.load("jquery", "1.3.2");
+//	google.load("jqueryui", "1.7.0");
+	</script>
+	<script type="text/javascript"> jQuery.noConflict(); </script>
+	
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/common/js/jquery/plugins/pngFix/jquery.pngFix.js"></script> 
+	<style type="text/css">
+		.navMenuHorizontal li { margin: 0 5px; } // add in the spacing that seems to disappear
+	</style>
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('.subtitlewrap').css('position', 'relative'); // make sutitles position relative (so the next step works)
+			// replace the background images on the nav with actual images - otherwise 
+			// if we do a fix on both the BG & the image then it breaks the links
+			$('.navMenu li.top, .subtitlewrap').each(function() {
+				var bgIMG = $(this).css('background-image');
+				if(bgIMG != null && bgIMG.indexOf(".png")!=-1){
+					var iebg = bgIMG.split('url("')[1].split('")')[0];
+					$t = $(this);
+					$t.css('background-image', 'none');
+					$t.prepend( '<div style="overflow: hidden; display: block; position: absolute; top: 0; left: 0; height: ' + $t.height() + 'px; width: 100%; text-align: left;"><img src="' + iebg + '" /></div>' );
+				}
+			});
+			// fix the pngs
+			$('.navMenu, .subtitlewrap').pngFix({doBg:false});
+		});
+	</script>
+	<![endif]-->
+
+	
+		<script type="text/javascript" src="/common/js/zoogle/framed_musicplayer.js?2"></script>
+		<script language="JavaScript" type="text/JavaScript">
+			
+				
+				if (isMusicPlayerOpen()) closeFramedMusicPlayer();
+			
+		</script>
+	
+			<script type="text/javascript" src="/common/js/jquery/plugins/jquery.prompting_input.js"></script>
+			<script type="text/javascript" src="/common/js/jquery/plugins/jquery-validate/lib/jquery.form.js"></script>
+			<script type="text/javascript" src="/common/js/jquery/plugins/bgiframe/jquery.bgiframe.js?100"></script>
+			<script type="text/javascript" src="/common/js/zoogle/features/mailinglist/signup.js?100"></script>
+			
+			<link href="/common/usersite/css/features/mailinglist.css?1" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" src="/common/js/jquery/plugins/bgiframe/jquery.bgiframe.js"></script>
+		<script type="text/javascript" src="/common/js/zoogle/jQuery.zoogleNav.js?1"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('.navMenu').zoogleNav({imageSuffix: 'png'});
+
+				// replace all the flash elements with ones with wmode params so that the
+				// menu doesn't overlay on other Windows browsers (as IE uses bgiframe)
+				// could extract this to be re-usable
+				if( !$.browser.msie && window.navigator.userAgent.match( /Windows/ ) ) {
+					$('object').each(function() {
+						$this = $(this);
+						if( ! $('param[name=wmode]', $this ).length == 1 ) {
+							$targ = $this.clone();
+							$targ.append('<param name="wmode" value="opaque" />');
+							$('embed', $targ).attr('wmode', 'opaque');
+							$this.replaceWith($targ);
+						}
+					} );
+
+					$('embed').each(function() {
+						$this = $(this);
+						if( $this.attr('wmode') == null ) {
+							$this.replaceWith($this.clone().attr('wmode', 'opaque'));
+						}
+					});
+				}
+			});
+		</script>
+	
+
+</head>
+<body class="base">
+
+
+<div class="container" id="container">
+	
+	<div class="header clear">
+		
+		<div class="header-graphic">
+			<img src="http://content.bandzoogle.com/users/Streamline/images/45496.jpg?7" alt="Streamline" />
+		</div>
+		
+		
+		<div class="navigation clear">
+			<ul class="navMenu navMenuHorizontal"><li class="top"><a href="home.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-home.png?8"
+			alt="Home" 
+	width="58" height="50" 
+			class="rollover" /></a></li><li class="top"><a href="gigs.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-gigs.png?8"
+			alt="Gigs" 
+	width="47" height="50" 
+			class="rollover" /></a><ul><li><a 
+				href="giglist.cfm"
+					>Gig List</a></li><li><a 
+				href="ontheroad.cfm"
+					>On The Road</a></li><li><a 
+				href="pics.cfm"
+					>Pics</a></li></ul></li><li class="top"><a href="media.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-media.png?8"
+			alt="Media" 
+	width="61" height="50" 
+			class="rollover" /></a><ul><li><a 
+				href="bandphotos.cfm"
+					>Band Photos</a></li><li><a 
+				href="discslyrics.cfm"
+					>Discs &amp; Lyrics</a></li><li><a 
+				href="sounds.cfm"
+					>Sounds</a></li><li><a 
+				href="videos.cfm"
+					>Videos</a></li></ul></li><li class="top"><a href="store.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-store.png?8"
+			alt="Store" 
+	width="55" height="50" 
+			class="rollover" /></a></li><li class="top"><a href="streamteams.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-streamteams.png?8"
+			alt="Stream Teams" 
+	width="137" height="50" 
+			class="rollover" /></a><ul><li><a 
+				href="campusreps.cfm"
+					>CampusReps</a></li><li><a 
+				href="chatter.cfm"
+					>Chatter</a></li><li><a 
+				href="mailinglist.cfm"
+					>Mailing List</a></li><li><a 
+				href="newsarchive.cfm"
+					>News Archive</a></li><li><a 
+				href="streamteam.cfm"
+					>StreamTeam</a></li></ul></li><li class="top"><a href="presskitbios.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-presskitbios.png?8"
+			alt="Press Kit Bios" 
+	width="130" height="50" 
+			class="rollover" /></a></li><li class="top"><a href="contacts.cfm" class="top"><img
+			src="http://content.bandzoogle.com/users/Streamline/images/button-contacts.png?8"
+			alt="Contacts" 
+	width="86" height="50" 
+			class="rollover" /></a></li></ul> 
+		</div>
+		
+	</div>
+	
+	
+	
+	<div class="content-top"></div>
+	<div class="clear">
+		
+		<div class="content">  
+			<table width="100%" cellspacing="8">
+				
+
+					<tr>
+						
+							<td colspan="2" valign="top">
+								<div class="layout layout-full">
+									
+				<div class="subtitlewrap">
+					<div class="subtitle"><img
+					src="http://content.bandzoogle.com/users/Streamline/images/subheader-82.png?5" 
+					alt="Mailing List" /></div>
+				</div>
+			
+											<a name="a65308_82" 
+												id="a65308_82" style="display:hidden"> </a>
+											
+		
+	<div id="mailinglist-form">
+		<form method="post" id="addToMailListForm" action="index.cfm?go=1&component=mailinglist-action-join">
+			<div style="text-align: center;">
+				<p>Join our mailing list for the latest Streamline news, enter your email address:</p>
+				<input type="text" name="email" id="mailListSignUpEmail" size="25" maxlength="100" />
+				<input type="submit" value="Signup" class="button" />
+			</div>
+		</form>
+	</div>
+
+								</div>
+							</td>
+						
+					</tr>
+				
+
+					<tr>
+						
+							<td colspan="2" valign="top">
+								<div class="layout layout-full">
+									
+											<a name="a65308_87480" 
+												id="a65308_87480" style="display:hidden"> </a>
+											
+	<p class="text"><P align=center>Check out our <A href="PrivacyPolicy.cfm" target=_blank>Privacy Policy</A></P></p>
+	
+								</div>
+							</td>
+						
+					</tr>
+				
+			</table>
+			</div>
+	</div>
+	
+	<div class="content-bottom"></div>
+	
+	
+	<div class="footer clear"></div>
+	
+</div>
+
+	
+<div class="footertext"></div>
+</body></html>
